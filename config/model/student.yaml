@@ -1,0 +1,6 @@
+# config/model/student.yaml
+query_encoder_name: "resnet18"
+memory_encoder_name: "mobilenetv2"
+embed_dim: 256
+aspp: true
+memory_size: 2

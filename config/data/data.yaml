@@ -1,0 +1,12 @@
+# config/data.yaml
+davis:
+  root: "./data/"          
+  year: 2017
+  split: "train"
+  seq_len: 5
+
+youtubevos:
+  root: "./data/"
+  year: 2019
+  split: "train"
+  seq_len: 5

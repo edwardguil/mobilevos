@@ -1,0 +1,8 @@
+# config/evaluation.yaml
+davis:
+  split: "val"
+  output_dir: "results/DAVIS"
+
+youtubevos:
+  split: "valid"
+  output_dir: "results/YTVOS"

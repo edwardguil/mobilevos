@@ -1,0 +1,10 @@
+# config/config.yaml
+defaults:
+  - data: data.yaml
+  - training: training.yaml
+  - evaluation: evaluation.yaml
+  - model: teacher  # change to teacher if training teacher
+
+# Global configurations
+seed: 42
+checkpoint_dir: ./checkpoints

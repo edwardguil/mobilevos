@@ -1,0 +1,9 @@
+torch
+torchvision
+hydra-core
+omegaconf
+numpy
+Pillow
+opencv-python
+tqdm
+requests

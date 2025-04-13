@@ -1,0 +1,7 @@
+# config/model/teacher.yaml
+query_encoder_name: "resnet50"
+memory_encoder_name: "resnet50"
+embed_dim: 256
+aspp: true
+memory_size: 1000   # A very large number to simulate infinite memory
+pretrained: ./checkpoints/teacher_checkpoint
